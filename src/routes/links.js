@@ -32,5 +32,9 @@ router.post('/sendmessagev2', async(req, res) => {
     }
 })
 
+router.get('/welcome', async(req, res) => {      
+        res.json({res:'WELCOME'}) 
+})
+
 
 module.exports = router;
